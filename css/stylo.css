@@ -1,0 +1,45 @@
+
+body {
+	font-size: 1.5em;
+	/* line-height: ; To be determined */ 
+	font-family: 'Bitter', serif;
+	background: #EFEFEF; /* #565656 */
+}
+
+h1 {
+	color:#565656; /* Blackboard */
+}
+
+h2 {
+	color:#565656;
+}
+
+p {
+	line-height: 1.4em;
+	color:#565656;
+}
+
+ul {
+	line-height: 1.4em;
+	color:#565656;
+}
+
+
+.intro {
+	position:relative;
+	width:100%;
+	max-width: 960px;
+	margin:0 auto;
+	padding: 0 0px;
+}
+
+.comments {
+	position:relative;
+	width:100%;
+	max-width: 960px;
+	margin:0 auto;
+	padding: 0 0px;
+
+}
+
+

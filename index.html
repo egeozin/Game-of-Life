@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+
+	<meta charset="utf-8">
+	<title>6170_Game_Of_Life_Ege</title>
+
+	<!-- FONT -->
+	<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"> 
+
+	<!-- CSS -->
+	<link type="text/css" rel="stylesheet" href="css/stylo.css">
+	<link type="text/css" rel="stylesheet" href ="css/gamevis.css">
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="images/favicon.png">
+
+	<!-- JQUERY -->
+	<!-- <script
+		src="https://code.jquery.com/jquery-3.1.1.min.js"
+		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		crossorigin="anonymous"></script>  -->
+
+</head>
+<body>
+
+	<div class="intro">
+		<h1 id="heading">Hi! This is an interpretation of Conway's Game of Life</h1>
+		<h2>by Ege Ozgirin</h2>
+	</div>
+
+	<div id="widget">
+		<canvas id="cv" width="960" height="480"> </canvas>
+	</div>
+
+	<div class="comments">
+		<p> You can create your own starting configuration by clicking on the canvas above in <em>Pause</em> or <em>Clean</em> mode. <em>Randomize</em> initiates a random configuration.</p>
+		<p> Rules of the Game from Wikipedia: Every cell interacts with its eight neighbours, that are the cells that are horizontally, vertically, or diagonally adjacent, according to the following rules: </p>
+		<ul>
+			<li>Any live cell with fewer than two live neighbours dies (under-population).</li>
+			<li>Any live cell with two or three live neighbours lives on to the next generation.</li>
+			<li>Any live cell with more than three live neighbours dies (over-population).</li>
+			<li> Any dead cell with exactly three live neighbours becomes a live cell (reproduction).</li>
+		</ul>
+	</div>
+
+	<script type="text/javascript" src="lib/jquery-1.11.3.min.js"></script>
+
+	<script type="text/javascript" src="modules/game.js"></script>
+
+	<script type="text/javascript" src="modules/gamevis.js"></script>
+
+	<script type="text/javascript" src="modules/gamemain.js"></script>
+
+</body>
+</html>
+
+
+
