@@ -1,4 +1,4 @@
-Conway's Game of Life Interpretation for Software Studio class at MIT, 2016.
+Conway's Game of Life Interpretation for 6.170 Software Studio class at MIT, 2016.
 Ege Ozgirin
 
 	This project is designed with: 
