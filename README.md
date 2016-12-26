@@ -20,7 +20,7 @@ Every cell interacts with its eight neighbours, that are the cells that are hori
 
 Interface of the game:
 
-<p align="center"><img src="https://github.mit.edu/egeozin/Game-of-Life/blob/master/images/initial.jpg" width="400"></p>
+<p align="center"><img src="https://github.mit.edu/egeozin/Game-of-Life/blob/master/images/initial.jpg" width="500"></p>
 
 ### Implementation Details
 
@@ -30,11 +30,11 @@ I created cells array and neighbors array that contain
 values, and functions that manipulate them accordingly.
 
 Inspired by Micheal Bostock's implementation, I have decided to use "cells" array that comprises of binary integers representing whether a cell is alive("1") or dead("0").
-I would have integrate 'cells' and 'neighbors' in one object. But in the end I have decided to keep them separate as neigbors array is used only in Game model.
+I would have integrate 'cells' and 'neighbors' in one object. I have decided to keep them separate as neigbors array is used only in Game model.
 I believe this is still a simple but effective representation that could establish a clean interface with the controller file. 
 
 In "gamevis.js", I selected canvas element that I have defined in my html to add elements into it. I have created four buttons for game functionality. 
-These are "Play", "Pause", "Randomize" and "Clean". User can create your own starting configuration by clicking on the canvas above in Pause or Clean mode. Randomize initiates a random configuration.
+These are "Play", "Pause", "Randomize" and "Clean". Users can create their own starting configuration by clicking on the canvas above in Pause or Clean mode. Randomize initiates a random configuration.
 
 <p align="center"><img src="https://github.mit.edu/egeozin/Game-of-Life/blob/master/images/progress.jpg" width="900"></p>
 
