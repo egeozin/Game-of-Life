@@ -6,6 +6,8 @@ Ege Ozgirin
 	Javascript for model-view-controller implementation + 
 	Jquery for user interaction
 	HTML Canvas for visualization of the board.
+
+	You can initate the game by downloading the repository --> Starting a simple HTTP server with Python --> Accessing from localhost.
 	
 # Game of Life
 
