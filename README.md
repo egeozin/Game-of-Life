@@ -25,7 +25,7 @@ Every cell interacts with its eight neighbours, that are the cells that are hori
 
 Interface of the game:
 
-<p align="center"><img src="https://github.mit.edu/egeozin/Game-of-Life/blob/master/images/initial.jpg" width="500"></p>
+<p align="center"><img src="https://github.com/egeozin/Game-of-Life/blob/master/images/initial.jpg" width="500"></p>
 
 ### Implementation Details
 
@@ -41,7 +41,7 @@ I believe this is still a simple but effective representation that could establi
 In "gamevis.js", I selected canvas element that I have defined in my html to add elements into it. I have created four buttons for game functionality. 
 These are "Play", "Pause", "Randomize" and "Clean". Users can create their own starting configuration by clicking on the canvas above in Pause or Clean mode. Randomize initiates a random configuration.
 
-<p align="center"><img src="https://github.mit.edu/egeozin/Game-of-Life/blob/master/images/progress.jpg" width="900"></p>
+<p align="center"><img src="https://github.com/egeozin/Game-of-Life/blob/master/images/progress.jpg" width="900"></p>
 
 I implemented a subscriber pattern that draws/updates pixels in the canvas whenever relevant functions are called in "game.js".
 
