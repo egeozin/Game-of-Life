@@ -50,6 +50,3 @@ I have defined my own iteration abstraction: 'arrayFromTo' in order to populate 
 
 I have decided to enable editing during the 'Pause' mode in order to let the user to intervene during the game.
 
-### License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
